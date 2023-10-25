@@ -1,0 +1,51 @@
+.container-all-blogs{
+    background-color: #CE5A67;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.blogs{
+    color: #000;
+    font-family: Asset;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+.to-dashboard{
+    background-color: #F4BF96;
+    color: #FCF5ED;
+    font-family: Bakbak One;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+.all-blogs {
+    margin:70px;
+    margin-top:-20px;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-gap: 10px;
+}
+.blog{
+  
+    text-align: center;
+}
+.img-blog{
+    height: 200px;
+}
+.title-blog{
+    color: #F4BF96;
+    font-family: Bakbak One;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
